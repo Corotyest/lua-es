@@ -1,5 +1,4 @@
-[Siguiente página](comienzo)
----
+##### [Siguiente página](paginas/comienzo.md)
 
 # ¡Bienvenido!
 
@@ -42,5 +41,6 @@ Añadiendo Lua a una aplicación no lo sobre carga. El tarball para Lua 5.4.4 el
 ## Lua es gratuito
 
 Lua es un software de fuente-abierta gratuito, distribuido bajo una muy liberal licencia (la bien conocida licencia MIT). Puede ser usado para cualquier proposito, incluyendo propositos comerciales, sin ningún costo en absoluto. ¡Solo descargalo y usalo!
+
 ---
-[Siguiente página](comienzo)
+[Siguiente página](paginas/comienzo.md)
