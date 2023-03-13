@@ -2,13 +2,17 @@
 
 # ¡Bienvenido!
 
-Lua es un poderoso, eficiente, liviano y empotrable lenguaje de programación. Soporta programación procesal, programación de objeto-orientado, programación funcional, manejo de datos y descripción de datos.
+Lua es un poderoso, eficiente, liviano y encajable lenguaje de programación. Soporta programación procesal, programación hacía objetos, funcional, manejo en datos y descripción de datos.
 
-Lua combina simple sintaxis procesal (ó de procedimiento) con poderosas construcciones de descripción de datos basadas en matrices asociativas; arrays, con una semántica extensible. Lua ésta escrito dinámicamente, se ejecuta interpretando bytecode con una máquina virtual de registro-basado, y tiene manejo de memoria automático con incrementación de recolección de basura, haciéndolo ideal para configuración, guionismo (programación), y creación veloz de prototipos.
+Lua combina una sintaxis muy simple, que es procesal (ó de procedimiento) con poderosas construcciones a descripción de datos, basados en *matrices*: valores, asociativos; `arrays`, con una semántica expansible.
 
-# ¿Qué es su nombre?
+Lua ésta escrito dinámicamente, ***se ejecuta interpretando `bytecode` con una máquina virtual***, contiene manejo automático de `memoria` con una incrementación en recolección de basura, haciéndolo ideal para configuración, guionismo (programación o *bago*: scripting) y creación VELOZ de prototipos.
 
-'Lua' (pronunciado LOO-ah) significa 'Luna' en Portugués. De tal manera, es no un acrónimo tampoco un abreviador, es un sustantivo. Mas específicamente, 'Lua' es un nombre, el nombre de la Tierra luna y el nombre de este lenguaje. Como muchos nombres, debe escribirse minúsculas con una inicial mayúscula: 'Lua'. Por favor no lo escribas como 'LUA', el cual es feo y confuso, porque se convierte en un acrónimo con diferentes significados para las diferentes personas. Entonces, por favor, ¡escribelo como 'Lua', correcto!
+# Procedencia del nombre Lua
+
+'Lua' (pronunciado LOO-ah) significa 'Luna' en Portugués. De tal manera, es no un acrónimo tampoco un abreviador, es un *sustantivo*. Mas específicamente, 'Lua' es un nombre, por ejemplo el nombre de la Tierra, la *luna*; y el nombre de este lenguaje. Como muchos nombres, debe escribirse en minúsculas con inicial mayúscula: 'Lua'.
+
+> Por favor no lo escribas como 'LUA', el cual es feo y confuso, porque se convierte en un acrónimo con diferentes significados para las diferentes personas. Entonces, por favor, ¡escribelo como 'Lua', correcto!
 
 # ¿Por qué Lua?
 
@@ -18,29 +22,43 @@ Lua es usado en muchas industrias de aplicaciones (como *Adobe Photoshop Lightro
 
 ## Lua es rápido
 
-Lua tiene una reputación derramable en rendimiento. Proclamar ser "tan rápido como Lua" es una inspiración para otros lenguajes de programación. Muchos benchmarks (puntos de referencia) muestran a Lua como el ŕapido lenguaje de programación en el reino de lenguajes de programación interpretes. Lua es veloz no sólo en los bien afinados programas de benchmark, sino también en la vida real. Fracciones sustanciales de grandes aplicaciones se han escrito en Lua.
+Lua tiene una reputación derramable en rendimiento. Proclamar ser "tan rápido como Lua" es una inspiración para otros lenguajes de programación. Muchos benchmarks (puntos de referencia) muestran a Lua como el MÁS ŕapido lenguaje de programación en el reino de lenguajes para la programación e interpretes. Lua es veloz no sólo en los bien afinados programas de benchmark, sino también en la vida real. Fracciones sustanciales de grandes aplicaciones se han escrito en Lua.
 
-Si necesitas aun mas velocidad, prueba LuaJIT, una implementación independiente de Lua usando un compilador justo-a-tiempo.
+Si necesitas aun mas velocidad, prueba LuaJIT, una implementación independiente de Lua usando un compilador justo-a-tiempo. *O bueno eso dice el creador*...
 
 ## Lua es portable
 
-Lua es distribuido en un pequeño paquete y construcciones fuera de la caja en todas la plataformas que tienen un compilador estándar C. Lua se ejecuta en todos los 'sabores' de Unix y Windows, en móviles (ejecutandose Android, iOS, BREW, Symbian, Windows Phone), empotrado en microprocesadores (algunos como ARM y RAbbit, para aplicaciones como Lego MindStorms), en IBM cuadros-base, etc.
+Lua es distribuido en un pequeño paquete, sin embargo funciona; en todas la plataformas que tienen un compilador estándar C haciéndolo transportable. Lua se ejecuta sobre todos los *'sabores'* de Unix y Windows, en móviles (ejecutandose Android, iOS, BREW, Symbian, Windows Phone), encajable en microprocesadores (algunos como ARM y RAbbit, para aplicaciones como Lego MindStorms), en IBM cuadros-base, etc.
 
-## Lua es empotrable
+## Lua es **encajable**
 
-Lua es un veloz lenguaje motoro con pequeña huella que puedes empotrar en tus aplicaciones. Lua tiene una simple y bien documentada API que permite integraciones mas fuertes con código escrito en otros lenguajes. Es fácil extender Lua con librerias escritas en otros lenguajes. Es también fácil exntender programas escritos en otros lenguajes con Lua. Lua es usado para extender programas escritos no sólo en C y C++, sino tambien en Java, C#, Samalltalk, Fortran, Ada, Erlang, e incluso en otros lenguajes de programación; como Perl y Ruby.
+Lua es un lenguaje super veloz; motoro con pequeña huella en el sistema, que puedes encajar en tus aplicaciones. Lua tiene una simple y bastante **bien documentada API** que da paso a integraciones con gran fuerza de código escrito en otros lenguajes. Es también muy fácil de extender, como **Lua con librerias escritas en otros lenguajes**. Es también fácil extender programas escritos en otros lenguajes con Lua.
 
-## Lua es poderoso (pero simple)
+Lua **es usado para extender programas** escritos no sólo en C y C++, sino tambien en:
+  * Java,
+  * C#,
+  * Samalltalk,
+  * Fortran,
+  * Ada,
+  * Erlang
+e incluso en otros lenguajes de programación; como:
+  * Perl,
+  * Ruby
 
-Un concepto fundamental en el diseño de Lua es proporcionar meta-mecánismos para implementar características en lugar de proveer ciertas carecterísticas directamete en el lenguaje. Por ejemplo, aunque Lua no es puramente un lenguaje de programación de objecto-orientado, provee meta-mecánismos para implemetar clases y herencias. Lua brinda meta-mecánismos una ecónomia de conceptos y mantiene el lenguaje pequeño, mientras permite expandir la semántica de formas no convencionales.
+## ¡Lua es *poderoso*!
 
-## Lua es pequeño
+Un concepto fundamental en el diseño de Lua es proporcionar *meta-mecánismos* para la implementación de características, en lugar de proveer ciertas propiedades CONCRETAS directamete en el lenguaje. Por ejemplo, aunque Lua no es puramente un lenguaje de programación orientado—a—objetos, comprende de los *meta-mecánismos* necesarios para agregar `clases` *y herencias*.
 
-Añadiendo Lua a una aplicación no lo sobre carga. El tarball para Lua 5.4.4 el cual contiene código base y documentacion, tan solo pesa 353K comprimido y 1.3M descomprimido. La fuente contiene alrederdor de 30000 lineas de C. Bajo 64-bit Linux, un interprete de Lua construido con todas las librerias estándar de Lua pesa 281K y la libreria de Lua pesa 468K.
+Lua brinda varios *meta-mecánismos* para lo antes mencionado y una ecónomia extensa de conceptos, manteniendo el lenguaje compacto, ¡mientras **permite expandir la semántica** de formas no convencionales!
+
+## ¡Lua es compacto!
+
+Añadiendo Lua en una aplicación no hace que se sobre cargue. El *'tarball' para la versión `5.4.×` de Lua que contiene código base y documentación de la misma, ¡tan solo pesa `353`KB comprimido y `1.3`MB descomprimido! La fuente contiene alrederdor de `30,000` lineas de C. Bajo Linux de 64-bit, un interprete de Lua construido con todas las librerias estándar de Lua pesa `281`KB y la libreria de Lua pesa `468`KB.
 
 ## Lua es gratuito
 
-Lua es un software de fuente-abierta gratuito, distribuido bajo una muy liberal licencia (la bien conocida licencia MIT). Puede ser usado para cualquier proposito, incluyendo propositos comerciales, sin ningún costo en absoluto. ¡Solo descargalo y usalo!
+Lua es un *'software'* de fuente–abierta gratuito, distribuido bajo una muy liberal licencia (la bien conocida **licencia MIT**). Puede ser usado para cualquier propósito incluyendo: comerciales, sin ningún costo en absoluto.
+> **¡Solo descargalo y usalo!**
 
 ---
 [Siguiente página](paginas/comienzo.md)
