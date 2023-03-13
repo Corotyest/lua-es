@@ -2,11 +2,11 @@
 
 # ¡Bienvenido!
 
-Lua es un poderoso, eficiente, liviano y encajable lenguaje de programación. Soporta programación procesal, programación hacía objetos, funcional, manejo en datos y descripción de datos.
+Lua es un poderoso, eficiente, liviano y encajable lenguaje de programación. Soporta programación procesal, hacía objetos, funcional, manejo en datos y descripción de datos.
 
-Lua combina una sintaxis muy simple, que es procesal (ó de procedimiento) con poderosas construcciones a descripción de datos, basados en *matrices*: valores, asociativos; `arrays`, con una semántica expansible.
+Lua combina una sintaxis muy simple, que es procesal (ó de procedimiento) con poderosas construcciones para descripción de datos, basados en *matrices*, osease valores, asociativos como `arrays` y `diccionarios`, con una semántica expansible.
 
-Lua ésta escrito dinámicamente, ***se ejecuta interpretando `bytecode` con una máquina virtual***, contiene manejo automático de `memoria` con una incrementación en recolección de basura, haciéndolo ideal para configuración, guionismo (programación o *bago*: scripting) y creación VELOZ de prototipos.
+Lua ésta escrito dinámicamente, ***se ejecuta interpretando `bytecode` con una máquina virtual***, contiene manejo automático de `memoria` con una incrementación en recolección de basura, haciéndolo ideal para la configuración, guionismo (programación o *bago*: scripting) y creación VELOZ de prototipos.
 
 # Procedencia del nombre Lua
 
